@@ -1,0 +1,21 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "setupFilesAfterEnv": ["jest-extended/all"],
+  "testEnvironment": "node",
+  "testRegex": ".*/test/.*.test.ts$",
+  "transform": {
+    "^.+\\.(t)s$": "ts-jest"
+  },
+  "coverageReporters": [
+    "json-summary",
+    "text",
+    "lcov"
+  ],
+  "testPathIgnorePatterns": [
+    "node_modules",
+    "build"
+  ],
+  "resetMocks": true,
+  "resetModules": true
+}

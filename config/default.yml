@@ -1,0 +1,14 @@
+app:
+  # Server configuration
+  server:
+    port: 8020
+
+  # Microservice configuration
+  microservice:
+    basePath: services
+    server:
+      name: test/app/config/v1
+
+  # Logging configuration
+  log:
+    level: info

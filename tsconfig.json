@@ -1,0 +1,23 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "types": ["node", "jest"],
+    "strict": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "./app.ts",
+    "lib/**/*.ts",
+    "lib/**/*.json",
+    "test/**/*.ts",
+    "test/**/*.json"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

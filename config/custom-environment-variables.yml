@@ -1,0 +1,15 @@
+app:
+  # Server configuration overrides for the environment
+  server:
+    port:
+      __name: SERVER_PORT
+      __format: number
+
+  # Microservice configuration overrides for the environment
+  microservice:
+    server:
+      name: MICROSERVICE_NAME
+
+  # Logging configuration overrides for the environment
+  log:
+    level: LOG_LEVEL
